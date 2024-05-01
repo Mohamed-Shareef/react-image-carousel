@@ -1,0 +1,12 @@
+.container {
+  height: 50px;
+  background-color: #d2c2a7;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 0 20px;
+}
+
+.container span {
+  padding: 0 10px;
+}

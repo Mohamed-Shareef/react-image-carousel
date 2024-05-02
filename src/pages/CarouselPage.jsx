@@ -23,11 +23,11 @@ const CarouselPage = () => {
   );
 
   return (
-    <>
+    <main>
       <Header />
       <SelectContainer handleChange={handleAlbumIdChange} />
       {filteredData.length > 0 && <ImageContainer data={filteredData} />}
-    </>
+    </main>
   );
 };
 
